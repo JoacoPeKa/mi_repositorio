@@ -1,0 +1,32 @@
+/*Estilo para el menú*/
+
+h3 { font-family:Impact, sans-serif; color: black; background-color: burlywood;}
+
+
+/*Estilo para los links*/
+
+h2 { font-family:Impact, sans-serif; background-color: beige;}
+
+
+#Menu { background-color: rebeccapurple }
+/*ENTREGA DE TP: O comprimo a zip o rar o subo a google drive, si se sube, con permisos para que el tutor puede acceder. Tambien se puede descargar a pdf y enviar todo junto. Con Moqups, el boton de share. No completar A y B de los puntos*/
+
+#Logobar {width: 100%;}
+
+
+body {
+    background-color: rgba(48, 46, 26);
+}
+
+#padre {
+    display: grid;
+    align-items: stretch;
+}
+
+.menubar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    align-items: center;
+}

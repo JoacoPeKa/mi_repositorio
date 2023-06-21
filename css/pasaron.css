@@ -1,0 +1,32 @@
+#padre {
+    display: grid;
+    align-items: stretch;
+}
+
+#padre div {
+    border: solid 1px;
+    background-color: rgba(103, 103, 22, 0.313);
+    font-size: 20px;
+    padding: 20px;
+}
+
+.banda {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    align-items: center;
+}
+
+h3 {
+    font-size: 24px;
+    Align-items: center;
+}
+
+footer {
+    grid-area: footer;
+}
+
+body {
+    background-color: rgba(48, 46, 26);
+}
